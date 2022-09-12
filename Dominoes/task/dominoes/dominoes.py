@@ -44,11 +44,11 @@ def determine_turn(p_pieces: [], comp_pieces: []):
     if highest_player_double[0] > highest_comp_double[0]:
         turn_status = "computer"
         snake = highest_player_double
-        return [turn_status, [snake]]
+        return [turn_status, snake]
     else:
         turn_status = "player"
         snake = highest_comp_double
-        return [turn_status, [snake]]
+        return [turn_status, snake]
 
 
 if __name__ == '__main__':
@@ -63,11 +63,18 @@ if __name__ == '__main__':
 
     status, domino_snake = determine_turn(player_pieces, computer_pieces)
     if status == "computer":
-        player_pieces.pop(player_pieces.index(domino_snake[0]))
+        player_pieces.pop(player_pieces.index(domino_snake))
     else:
-        computer_pieces.pop(computer_pieces.index(domino_snake[0]))
-    print("Stock pieces:", stock_pieces)
-    print("Computer pieces:", computer_pieces)
-    print("Player pieces:", player_pieces)
-    print("Domino snake:", domino_snake)
-    print("Status:", status)
+        computer_pieces.pop(computer_pieces.index(domino_snake))
+    print("======================================================================")
+    print("Stock size:", len(stock_pieces))
+    print("Computer pieces: ", len(computer_pieces))
+    print("")
+    print(domino_snake, "\n")
+    print("")
+    for i in player_pieces:
+        print(f"{player_pieces.index(i) + 1}:{i}")
+    if status == "player":
+        print("Status: It's your turn to make a move. Enter your command.")
+    else:
+        print("Status: Computer is about to make a move. Press Enter to continue...")
