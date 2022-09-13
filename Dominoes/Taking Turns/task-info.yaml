@@ -351,5 +351,48 @@ files:
         TestStage3('dominoes.dominoes').run_tests()
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/11857#comment
-status: Unchecked
+status: Failed
+feedback:
+  message: "Wrong answer in test #1\n\nThe result is not right\n\nPlease find below\
+    \ the output of your program during this failed test.\nNote that the '>' character\
+    \ indicates the beginning of the input line.\n\n---\n\n======================================================================\n\
+    Stock size: 14\nComputer pieces:  7\n\n[5, 5]\n\nYour pieces:\n1:[3, 5]\n2:[0,\
+    \ 3]\n3:[0, 6]\n4:[3, 6]\n5:[1, 4]\n6:[2, 6]\n\nStatus: Computer is about to make\
+    \ a move. Press Enter to continue...\n> \n======================================================================\n\
+    Stock size: 14\nComputer pieces:  6\n\n[5, 5][2, 3]\n\nYour pieces:\n1:[3, 5]\n\
+    2:[0, 3]\n3:[0, 6]\n4:[3, 6]\n5:[1, 4]\n6:[2, 6]\n\nStatus: It's your turn to\
+    \ make a move. Enter your command.\n> 1\n======================================================================\n\
+    Stock size: 14\nComputer pieces:  6\n\n[5, 5][2, 3][3, 5]\n\nYour pieces:\n1:[0,\
+    \ 3]\n2:[0, 6]\n3:[3, 6]\n4:[1, 4]\n5:[2, 6]\n\nStatus: Computer is about to make\
+    \ a move. Press Enter to continue...\n> \n======================================================================\n\
+    Stock size: 14\nComputer pieces:  5\n\n[5, 5][2, 3][3, 5][1, 2]\n\nYour pieces:\n\
+    1:[0, 3]\n2:[0, 6]\n3:[3, 6]\n4:[1, 4]\n5:[2, 6]\n\nStatus: It's your turn to\
+    \ make a move. Enter your command.\n> 1\n======================================================================\n\
+    Stock size: 14\nComputer pieces:  5\n\n[5, 5][2, 3][3, 5][1, 2][0, 3]\n\nYour\
+    \ pieces:\n1:[0, 6]\n2:[3, 6]\n3:[1, 4]\n4:[2, 6]\n\nStatus: Computer is about\
+    \ to make a move. Press Enter to continue...\n> \n======================================================================\n\
+    Stock size: 14\nComputer pieces:  4\n\n[5, 5][2, 3][3, 5]...[1, 2][0, 3][5, 6]\n\
+    \nYour pieces:\n1:[0, 6]\n2:[3, 6]\n3:[1, 4]\n4:[2, 6]\n\nStatus: It's your turn\
+    \ to make a move. Enter your command.\n> 1\n======================================================================\n\
+    Stock size: 14\nComputer pieces:  4\n\n[5, 5][2, 3][3, 5]...[0, 3][5, 6][0, 6]\n\
+    \nYour pieces:\n1:[3, 6]\n2:[1, 4]\n3:[2, 6]\n\nStatus: Computer is about to make\
+    \ a move. Press Enter to continue...\n> \n======================================================================\n\
+    Stock size: 14\nComputer pieces:  4\n\n[5, 5][2, 3][3, 5]...[0, 3][5, 6][0, 6]\n\
+    \nYour pieces:\n1:[3, 6]\n2:[1, 4]\n3:[2, 6]\n\nStatus: It's your turn to make\
+    \ a move. Enter your command.\n> 1\n======================================================================\n\
+    Stock size: 14\nComputer pieces:  4\n\n[5, 5][2, 3][3, 5]...[5, 6][0, 6][3, 6]\n\
+    \nYour pieces:\n1:[1, 4]\n2:[2, 6]\n\nStatus: Computer is about to make a move.\
+    \ Press Enter to continue...\n> \n======================================================================\n\
+    Stock size: 14\nComputer pieces:  3\n\n[5, 5][2, 3][3, 5]...[0, 6][3, 6][2, 4]\n\
+    \nYour pieces:\n1:[1, 4]\n2:[2, 6]\n\nStatus: It's your turn to make a move. Enter\
+    \ your command.\n> 1\n======================================================================\n\
+    Stock size: 14\nComputer pieces:  3\n\n[5, 5][2, 3][3, 5]...[3, 6][2, 4][1, 4]\n\
+    \nYour pieces:\n1:[2, 6]\n\nStatus: Computer is about to make a move. Press Enter\
+    \ to continue...\n> \n======================================================================\n\
+    Stock size: 14\nComputer pieces:  2\n\n[0, 2][5, 5][2, 3]...[3, 6][2, 4][1, 4]\n\
+    \nYour pieces:\n1:[2, 6]\n\nStatus: It's your turn to make a move. Enter your\
+    \ command.\n> 1\n======================================================================\n\
+    Stock size: 14\nComputer pieces:  2\n\n[0, 2][5, 5][2, 3]...[2, 4][1, 4][2, 6]\n\
+    \nYour pieces:\n\nStatus: The game is over. You won!"
+  time: Tue, 13 Sep 2022 16:57:39 UTC
 record: -1
